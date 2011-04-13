@@ -1,0 +1,28 @@
+#header h1 {
+  text-align: right;
+}
+
+.header-separator {
+  height: 3px;
+  background-color: black;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+a, a:visited {
+  color: #2D6FD2;
+  text-decoration:none;
+}
+a:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+ul.no_style {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  list-style-type: square;
+}

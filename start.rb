@@ -1,0 +1,3 @@
+require "app"
+
+Ramaze.start
