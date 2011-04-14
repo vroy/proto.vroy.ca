@@ -29,6 +29,7 @@ Since these are not critical websites, having an easy way to push from a local c
 In the bare repo we have to setup the following post-update hook `~/repos/proto.vroy.ca.git/hooks/post-update` (make sure it's executable):
 
     #!/bin/sh
+
     cd $HOME/www/proto.vroy.ca || exit
     unset GIT_DIR
     git pull hub master
@@ -39,4 +40,5 @@ In the bare repo we have to setup the following post-update hook `~/repos/proto.
 In the actual website version of the repo, we have to setup the following post-commit hook to avoid conflicts in the history when work is being done straight on the server. In `~/www/proto.vroy.ca/.git/hooks/post-commit` (make sure it's executable), place the following:
 
     #!/bin/sh
+
     git push hub
