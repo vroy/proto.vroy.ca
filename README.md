@@ -32,7 +32,6 @@ In the bare repo we have to setup the following post-update hook `~/repos/proto.
     cd $HOME/www/proto.vroy.ca || exit
     unset GIT_DIR
     git pull hub master
-    git push github
 
     exec git-update-server-info
 
