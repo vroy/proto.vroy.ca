@@ -24,7 +24,7 @@ On the server:
 
 ### Pushing and deploys
 
-Since these are not critical websites, having an easy way to push from a local clone to the server and having the changes deployed can be fun. To set this up, I followed the instructions from this post: http://joemaller.com/990/a-web-focused-git-workflow/
+Since these are not critical websites, having an easy way to push from a local clone to the server and having the changes deployed can be fun. To set this up, I followed the instructions from this post: [http://joemaller.com/990/a-web-focused-git-workflow/](http://joemaller.com/990/a-web-focused-git-workflow/)
 
 In the bare repo we have to setup the following post-update hook `~/repos/proto.vroy.ca.git/hooks/post-update` (make sure it's executable):
 
