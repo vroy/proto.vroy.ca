@@ -20,7 +20,7 @@ On the server:
 
     cd ~/www/
     git clone ~/repos/proto.vroy.ca.git
-    git remote add git@github.com:exploid/proto.vroy.ca.git
+    git remote add github git@github.com:exploid/proto.vroy.ca.git
 
 ### Pushing and deploys
 
@@ -32,7 +32,7 @@ In the bare repo we have to setup the following post-update hook `~/repos/proto.
 
     cd $HOME/www/proto.vroy.ca || exit
     unset GIT_DIR
-    git pull hub master
+    git pull origin master
     touch tmp/restart.txt
 
     exec git-update-server-info
@@ -41,4 +41,4 @@ In the actual website version of the repo, we have to setup the following post-c
 
     #!/bin/sh
 
-    git push hub
+    git push origin
