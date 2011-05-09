@@ -1,3 +1,7 @@
+@import url("blueprint/screen.css") screen, projection;
+@import url("blueprint/vroy.ca.css") screen, projection;
+@import url("cssbuttons/buttons.css");
+
 /* Style goes here */
 #body h1 { font-size: 24px; }
 #body h2 { font-size: 18px; }
