@@ -6,7 +6,21 @@
 })();
 
 $(document).ready(function(){
-  
-  
-  
+
+        /*
+          This function is used to toggle between showing and hiding the github ribbon.
+          Depending on the width of the page, the github ribbon sometimes overlap some
+          more important items on the page.
+        */
+        $(window).resize(toggleGithubRibbon); // On resize
+        toggleGithubRibbon(); // On load
+        function toggleGithubRibbon() {
+            var width = $(window).width();
+            if ( width > 1220 ) {
+                $(".github-ribbon").show();
+            } else {
+                $(".github-ribbon").hide();
+            }
+        }
+
 });
