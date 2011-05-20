@@ -26,3 +26,23 @@ ul.no_style {
 #sidebar li {
   list-style-type: square;
 }
+
+ul.fancy_links {
+  margin: 0px;
+  padding: 0px;
+}
+ul.fancy_links li {
+  display: inline;
+  border-right: 1px solid black;
+  padding-left: 0px;
+  padding-right:4px;
+  
+}
+ul.fancy_links li:last-child {
+  border-right: none;
+}
+
+#footer hr {
+  margin-bottom: 5px;
+}
+#footer ul { display: inline; }
