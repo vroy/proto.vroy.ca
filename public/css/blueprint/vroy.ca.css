@@ -1,3 +1,7 @@
+@import url("http://proto.vroy.ca/css/blueprint/screen.css") screen, projection;
+@import url("http://proto.vroy.ca/css/blueprint/vroy.ca.css") screen, projection;
+@import url("http://proto.vroy.ca/css/cssbuttons/buttons.css");
+
 #header h1 {
   text-align: right;
 }
