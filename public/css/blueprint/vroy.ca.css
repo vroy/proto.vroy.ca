@@ -47,7 +47,7 @@ ul.fancy_links li:last-child {
 }
 
 #footer hr {
-  margin-bottom: 5px;
+  margin: 5px 0px 5px 0px;
 }
 #footer ul { display: inline; }
 
