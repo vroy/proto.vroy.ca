@@ -50,7 +50,7 @@ ul.fancy_links li:last-child {
   margin: 5px 0px 5px 0px;
 }
 #footer ul { display: inline; }
-
+#footer { margin-bottom: 10px; }
 
 /* Style goes here */
 #body h1 { font-size: 24px; }
