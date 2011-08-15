@@ -60,7 +60,7 @@ ul.fancy_links li:last-child {
 pre {
   border: 1px solid grey;
   background-color: #eee;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 p code {
